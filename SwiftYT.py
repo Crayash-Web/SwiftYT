@@ -10,20 +10,21 @@ from PIL import ImageTk, Image
 
 
 
-root = tk.Tk()
+root = Tk()
+root.geometry("1280x720")
 root.title("SwiftYT - Youtube Video Downloader")
 label = Label(root, text ="NOTE: YOU MUST HAVE AN INTERNET CONNECTION").pack()
 
 # the label for url 
-URL = Label(root, text = "Enter URL").place(x = 40, y = 400)
+URL = Label(root, text = "Enter URL").place(x = 40, y = 350)
 
-URL_input_area = Entry(root, width = 50).place(x=130, y=400)
+URL_input_area = Entry(root, width = 50).place(x=130, y=350)
 
 #Video Quality
 
-Quality = Label(root, text = "Choose Quality").place(x = 40, y = 450)
+Quality = Label(root, text = "Choose Quality").place(x = 40, y = 400)
 
-Quality_input_area = Entry(root, width = 50).place(x=130, y=450)
+Quality_input_area = Entry(root, width = 50).place(x=130, y=400)
 
 
 
@@ -37,7 +38,7 @@ canvas.create_image(20, 20, anchor=NW, image=img)
 canvas.place(x=850, y=50)
 
 #Placing TITLE
-c = Canvas(root, width=640, height=300)      
+c = Canvas(root, width=640, height=120)      
 c.pack()         
 img2 = PhotoImage(file="title.png")      
 c.create_image(20, 20, anchor=NW, image=img2)    
