@@ -27,6 +27,12 @@ img = PhotoImage(file="charachter.png")
 canvas.create_image(20, 20, anchor=NW, image=img)    
 canvas.place(x=850, y=50)
 
-                                                            
+#Placing TITLE
+c = Canvas(root, width=640, height=300)      
+c.pack()         
+img2 = PhotoImage(file="title.png")      
+c.create_image(20, 20, anchor=NW, image=img2)    
+c.place(x=50, y=50)
+
 
 root.mainloop()
