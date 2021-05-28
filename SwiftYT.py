@@ -56,3 +56,4 @@ root.mainloop()
 str_url = str(URL)
 
 yt = YouTube(str_url)
+print(yt.title)
