@@ -3,7 +3,10 @@
 #SwiftYT
 
 import tkinter as tk
+from tkinter import * 
+from tkinter.ttk import *
 from pytube import YouTube
+from PIL import Image, ImageTk
 
 def swiftdownlod():
     if(getURL.get() == ""):
@@ -47,5 +50,18 @@ def swiftReset():
     listbox.delete(0,END)
 
 root = tk.Tk()
+root.title("SwiftYT - Youtube Video Downloader")
+label = Label(root, text ="WELCOME..!!").pack()
+
+# frame inside root window
+frame = Frame(root)                  
+  
+# geometry method
+frame.pack()                          
+  
+# button inside frame which is 
+# inside root
+button = Button(frame, text ='URL')  
+button.pack()
 
 root.mainloop()
