@@ -17,7 +17,16 @@ label = Label(root, text ="NOTE: YOU MUST HAVE AN INTERNET CONNECTION").pack()
 # the label for url 
 URL = Label(root, text = "Enter URL").place(x = 40, y = 400)
 
-URL_input_area = Entry(root, width = 50).place(x=110, y=400)
+URL_input_area = Entry(root, width = 50).place(x=130, y=400)
+
+#Video Quality
+
+Quality = Label(root, text = "Choose Quality").place(x = 40, y = 450)
+
+Quality_input_area = Entry(root, width = 50).place(x=130, y=450)
+
+
+
 
 #placing character
 
