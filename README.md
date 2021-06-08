@@ -1,6 +1,6 @@
 <h1 align="center">⚡ SwiftYT(Under Development) ⚡</h1>
 
-![Swift](https://telegra.ph/file/6e227b2c0612a65026766.jpg)
+![Swift](https://telegra.ph/file/d526053dfa2bd909ea111.jpg)
 
 <h2 align="center">A simple software to download youtube videos developed by using pytube library</h2>
 
